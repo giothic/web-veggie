@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #2a8c4a;
+    color: #ebffee;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #2a8c4a;
+    font-weight: bold;
+}
+
+.content{
+    margin: 10px;
+    color: #2a8c4a;
+}
+    #home {
+        position: relative;
+        text-align: center;
+        padding: 20px; /* Espaço interno da seção */
+    }
+    
+    /* Estilo do box flutuante */
+    .box-flutuante {
+        display: inline-block; /* Faz a caixa se ajustar ao conteúdo */
+        width: 731px; /* Largura da imagem */
+        height: 264px; /* Altura da imagem */
+        background-image: url('/img/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; /* Faz com que a imagem cubra a área da caixa */
+        background-position: center;
+        color: white; /* Cor do texto dentro da caixa */
+        padding: 20px;
+        border-radius: 10px; /* Bordas arredondadas */
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+        text-align: center; /* Centraliza o texto dentro da caixa */
+        position: relative; /* Necessário para garantir o posicionamento absoluto dentro da seção, se necessário */
+        overflow: hidden; /* Garante que o conteúdo não exceda os limites da caixa */
+    }
+
+footer{
+    background-color: #82ac7e;
+    color: #f9f9f9;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+}
